@@ -2,21 +2,18 @@
 /**
  * main- Entry point
  * Description: "print alphabets lowercase and uppercase"
- * Return: always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n = 97;
-	int m = 65;
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	while (n <= 122)
+	for (i = 0; i < 52; i++;)
 	{
-		putchar(n);
+		putchar(alp[i]);
 	}
-	while (m <= 90)
-	{
-		putchar(m);
-	}
+	putchar('\n');
 	return (0);
 
 }
