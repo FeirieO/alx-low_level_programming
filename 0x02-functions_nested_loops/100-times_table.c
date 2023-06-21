@@ -2,7 +2,7 @@
 #include "stdio.h"
 
 /**
- * print_to_98 - prints all natural numbers from n to 98
+ * print_times_table - prints the n times table, starting with 0
  * followed by a new line
  * @n: print from this number
  */
